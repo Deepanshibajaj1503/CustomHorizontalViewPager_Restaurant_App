@@ -7,7 +7,7 @@
   This is a new way to find your favourite restaurant, just swipe right to see new restaurants 
   and better is that you can even "swipe back left" to see any restaurant if you missed! 
   
-  Click on the card to view more more photos, information about the restaurant and check out new upcoming events!
+  Click on the card to view more photos, information about the restaurant and check out new upcoming events!
 
 
 <img src="swipe_and_dine_gif_1.gif" width="400"/>
