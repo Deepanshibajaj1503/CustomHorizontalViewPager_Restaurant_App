@@ -1,9 +1,9 @@
-# CustomHorizontalViewPager_Restaurant_App
+# Swipe & Dine 
 
 
 # Ever tried a swipe to find your favourite restaurant ? Why do a swipe only for dating.
 
-# Swipe & Dine 
+
   This is a new way to find your favourite restaurant, just swipe right to see new restaurants 
   and better is that you can even "swipe back left" to see any restaurant if you missed! 
   
