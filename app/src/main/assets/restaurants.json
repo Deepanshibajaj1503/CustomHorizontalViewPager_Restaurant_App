@@ -1,0 +1,239 @@
+[
+  {
+    "id": "1",
+    "name": "Brother Barleys",
+    "desc": "Microbrewery, Casual Dining",
+    "profile_image": "https://i.ibb.co/vhzHXRD/brother-barleys-image-5.jpg",
+    "cuisine": "Finger Food, Continental, North Indian, Chinese",
+    "location": "HSR, Bengaluru",
+    "ratings": 4.1,
+    "open_hours": "Opens at 12 noon",
+    "avg_cost": "1300-1500 for two",
+    "features": [
+      "Home Delivery",
+      "Live Music",
+      "Sports TV",
+      "Live Entertainment",
+      "Full Bar Available",
+      "Available for Functions",
+      "Smoking Area",
+      "Outdoor Seating"
+    ],
+    "restaurant_images": [
+      "https://i.ibb.co/vhzHXRD/brother-barleys-image-5.jpg",
+      "https://i.ibb.co/417KvCG/brother-barleys-image-2.jpg",
+      "https://i.ibb.co/7k5XPGr/brother-barleys-image-1.jpg",
+      "https://i.ibb.co/L8KqmNx/brother-barleys-image-4.jpg",
+      "https://i.ibb.co/vhzHXRD/brother-barleys-image-3.jpg"
+    ],
+    "restaurant_event_images": [
+      "https://i.ibb.co/q1YnjKG/brother-barleys-event-image-1.jpg",
+      "https://i.ibb.co/LZbksBj/brother-barleys-event-image-2.jpg",
+      "https://i.ibb.co/t8GYwGj/brother-barleys-event-image-3.png",
+      "https://i.ibb.co/r2GSJ4w/brother-barleys-event-image-4.jpg"
+    ],
+    "restaurant_food_images": [
+      "https://i.ibb.co/Mhjb6Cw/brother-barleys-food-image-1.jpg",
+      "https://i.ibb.co/vc9fd7s/brother-barleys-food-image-2.jpg",
+      "https://i.ibb.co/kBnDZ56/brother-barleys-food-image-3.jpg",
+      "https://i.ibb.co/PG7wJRS/brother-barleys-food-image-4.jpg",
+      "https://i.ibb.co/jfSPzGk/brother-barleys-food-image-5.jpg",
+      "https://i.ibb.co/Y08XcfQ/brother-barleys-food-image-6.jpg"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "13th floor",
+    "desc": "Casual Dining",
+    "profile_image": "https://i.ibb.co/Vx6sdRn/13th-floo-image-1.jpg",
+    "cuisine": "North Indian, Asian, Thai",
+    "location": "MG Road, Bengaluru",
+    "ratings": 4.5,
+    "open_hours": "12:30pm – 1am",
+    "avg_cost": "2000-2500 for two",
+    "features": [
+      "Outdoor Seating",
+      "Free Wifi",
+      "Sports TV",
+      "Rooftop",
+      "Full Bar Available",
+      "Romantic Dining",
+      "Smoking Area",
+      "Luxury Dining"
+    ],
+    "restaurant_images": [
+      "https://i.ibb.co/Vx6sdRn/13th-floo-image-1.jpg",
+      "https://i.ibb.co/8Y0dPvC/13th-floor-image-2.jpg",
+      "https://i.ibb.co/1JjZWgw/13th-floor-image-3.jpg",
+      "https://i.ibb.co/3NVrZVc/13th-floor-image-4.jpg",
+      "https://i.ibb.co/WDrfgwb/13th-floor-image-5.jpg",
+      "https://i.ibb.co/FHx6ydk/13th-floor-image-6.jpg"
+    ],
+    "restaurant_event_images": [
+      "https://i.ibb.co/30QGP5t/13th-floor-event-image-1.jpg",
+      "https://i.ibb.co/wBD9RDP/13th-floor-event-image-2.jpg",
+      "https://i.ibb.co/Bf958N1/13th-floor-event-image-3.jpg",
+      "https://i.ibb.co/VtTf3j3/13th-floor-event-image-4.jpg",
+      "https://i.ibb.co/NmBvVBc/13th-floor-event-image-5.jpg"
+    ],
+    "restaurant_food_images": [
+      "https://i.ibb.co/tcjPWdb/13th-floor-food-image-1.jpg",
+      "https://i.ibb.co/sWnk6mN/13th-floor-food-image-2.jpg",
+      "https://i.ibb.co/zR0Krg3/13th-floor-food-image-3.jpg",
+      "https://i.ibb.co/59N60CS/13th-floor-food-image-4.jpg",
+      "https://i.ibb.co/GcdJT4Z/13th-floor-food-image-5.jpg"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "One Atria Cafe",
+    "desc": "Casual Dining",
+    "profile_image": "https://i.ibb.co/ZVMJGhf/one-atria-cafe-image-3.jpg",
+    "cuisine": "Continental, North Indian, Desserts",
+    "location": "Radisson Blu Atria, Bengaluru",
+    "ratings": 3.7,
+    "open_hours": "24 hours",
+    "avg_cost": "2000-2500 for two",
+    "features": [
+      "Breakfast",
+      "Free Wifi",
+      "Buffet",
+      "Kid Friendly",
+      "Full Bar Available",
+      "4/5 Star",
+      "Poolside",
+      "Gluten Free Options"
+    ],
+    "restaurant_images": [
+      "https://i.ibb.co/2S66dFH/one-atria-cafe-image-5.jpg",
+      "https://i.ibb.co/WpVyMcv/one-atria-cafe-image-1.jpg",
+      "https://i.ibb.co/Pw4Mdfn/one-atria-cafe-image-2.jpg",
+      "https://i.ibb.co/ZVMJGhf/one-atria-cafe-image-3.jpg",
+      "https://i.ibb.co/2n4nwGn/one-atria-cafe-image-4.jpg"
+    ],
+    "restaurant_food_images": [
+      "https://i.ibb.co/Hr0Q4Ng/one-atria-cafe-food-image-1.jpg",
+      "https://i.ibb.co/GdJQr2T/one-atria-cafe-food-image-2.jpg",
+      "https://i.ibb.co/5sZjRyr/one-atria-cafe-food-image-3.jpg",
+      "https://i.ibb.co/VS0W8Y4/one-atria-cafe-food-image-4.jpg"
+    ],
+    "restaurant_event_images": [
+      "https://i.ibb.co/xLTF0gs/one-atria-cafe-event-image-1.jpg",
+      "https://i.ibb.co/XC3vvGN/one-atria-cafe-event-image-2.jpg",
+      "https://i.ibb.co/DrgMt76/one-atria-cafe-event-image-3.jpg",
+      "https://i.ibb.co/hW7b9vt/one-atria-cafe-event-image-4.jpg",
+      "https://i.ibb.co/0ccKr01/one-atria-cafe-event-image-5.jpg",
+      "https://i.ibb.co/pRWnzY0/one-atria-cafe-event-image-6.jpg"
+    ]
+  },
+  {
+    "id": "4",
+    "name": "The Creek",
+    "desc": "Casual Dining",
+    "profile_image": "https://i.ibb.co/sbWcG4b/the-creek-image-1.jpg",
+    "cuisine": "North Indian, South Indian, Asian, Beverages, European",
+    "location": "Whitefield, Bengaluru",
+    "ratings": 4.4,
+    "open_hours": "Opens at 7am",
+    "avg_cost": "₹2400 for two",
+    "features": [
+      "Breakfast",
+      "Brunch",
+      "Buffet",
+      "Smoking Area",
+      "Outdoor Seating",
+      "Romantic Dining"
+    ],
+    "restaurant_images": [
+      "https://i.ibb.co/sbWcG4b/the-creek-image-1.jpg",
+      "https://i.ibb.co/hWGGBPG/the-creek-image-2.jpg",
+      "https://i.ibb.co/qJ7GCDJ/the-creek-image-3.jpg",
+      "https://i.ibb.co/jkr3SyD/the-creek-image-4.jpg"
+    ],
+    "restaurant_food_images": [
+      "https://i.ibb.co/6yMvzG1/the-creek-food-image-1.jpg",
+      "https://i.ibb.co/GQD0770/the-creek-food-image-2.jpg",
+      "https://i.ibb.co/bzMdfZc/the-creek-food-image-3.jpg",
+      "https://i.ibb.co/GksbTyK/the-creek-food-image-4.jpg",
+      "https://i.ibb.co/ZKVy4Wc/the-creek-food-image-5.jpg"
+    ],
+    "restaurant_event_images": [
+      "https://i.ibb.co/mzJ436R/the-creek-event-image-1.jpg",
+      "https://i.ibb.co/68Dg0NY/the-creek-event-image-2.jpg"
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Tiamo",
+    "desc": "Fine Dining",
+    "profile_image": "https://i.ibb.co/vXp29L5/tiamo-1-rest-image.jpg",
+    "cuisine": "Italian, Mediterranean",
+    "location": "Ulsoor, Bengaluru",
+    "ratings": 4.1,
+    "open_hours": "Opens at 11am",
+    "avg_cost": "₹2500 for two",
+    "features": [
+      "Wheelchair Accessible",
+      "Free Parking",
+      "Outdoor Seating",
+      "Live Sports Screening",
+      "Outdoor Seating",
+      "City View",
+      "Serves Cocktails"
+    ],
+    "restaurant_images": [
+      "https://i.ibb.co/vXp29L5/tiamo-1-rest-image.jpg",
+      "https://i.ibb.co/XDPzsT8/tiamo-2-rest-image.jpg",
+      "https://i.ibb.co/bBZ3Qw8/tiamo-3-rest-image.jpg",
+      "https://i.ibb.co/zPWdpdW/tiamo-4-rest-image.jpg",
+      "https://i.ibb.co/ctFf76d/tiamo-rest-image-5.jpg"
+    ],
+    "restaurant_food_images": [
+      "https://i.ibb.co/4TmXpFb/tiamo-food-image-1.jpg",
+      "https://i.ibb.co/ctsR6XK/tiamo-food-image-2.jpg",
+      "https://i.ibb.co/44ryjXT/tiamo-food-image-3.jpg",
+      "https://i.ibb.co/7JkZd92/tiamo-food-image-4.jpg"
+    ],
+    "restaurant_event_images": [
+      "https://i.ibb.co/q1Z6KpT/tiamo-event.jpg"
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Whitefield Bar and Grill",
+    "desc": "Fine Dining",
+    "profile_image": "https://i.ibb.co/r5cZK6s/whitefield-bar-grill-image-1.jpg",
+    "cuisine": "Continental, Burger, BBQ",
+    "location": "Whitefield, Bengaluru",
+    "ratings": 4.1,
+    "open_hours": "Opens at 5:30pm",
+    "avg_cost": "₹3000 for two",
+    "features": [
+      "Full Bar Available",
+      "Free Parking",
+      "Outdoor Seating",
+      "Table reservation required",
+      "Romantic Dining"
+    ],
+    "restaurant_images": [
+      "https://i.ibb.co/r5cZK6s/whitefield-bar-grill-image-1.jpg",
+      "https://i.ibb.co/Y2z6mwN/whitefield-bar-grill-image-2.jpg",
+      "https://i.ibb.co/KL1Lr8Q/whitefield-bar-grill-image-3.jpg",
+      "https://i.ibb.co/N3T3HPM/whitefield-bar-grill-image-4.jpg",
+      "https://i.ibb.co/tD43ywD/whitefield-bar-grill-image-5.jpg",
+      "https://i.ibb.co/QN0nrFj/whitefield-bar-grill-image-6.jpg",
+      "https://i.ibb.co/r4X1qmq/whitefield-bar-grill-image-7.jpg"
+    ],
+    "restaurant_food_images": [
+      "https://i.ibb.co/q0yL5Fy/whitefield-bar-food-image-1.jpg",
+      "https://i.ibb.co/Rbc7GBW/whitefield-bar-food-image-2.jpg",
+      "https://i.ibb.co/mTq0yDH/whitefield-bar-food-image-3.jpg"
+    ],
+    "restaurant_event_images": [
+      "https://i.ibb.co/DW1dxcv/whitefield-bar-grill-event-image-1.jpg",
+      "https://i.ibb.co/SwbC8QV/whitefield-bar-grill-event-image-2.jpg",
+      "https://i.ibb.co/d074wdb/whitefield-bar-grill-event-image-3.jpg",
+      "https://i.ibb.co/vdXwh1x/whitefield-bar-grill-event-image-4.jpg"
+    ]
+  }
+]

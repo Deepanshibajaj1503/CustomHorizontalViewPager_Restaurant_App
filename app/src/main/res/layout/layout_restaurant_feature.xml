@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/dim_5"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="@dimen/dim_12"
+        android:layout_height="@dimen/dim_12"
+        android:layout_marginStart="@dimen/dim_5"
+        android:src="@drawable/feature_icon"
+        android:layout_gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/feature_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gotham_rounded_light"
+        android:layout_marginStart="@dimen/dim_5"
+        android:textColor="@color/color_464646"
+        android:textSize="@dimen/sp_14" />
+
+</LinearLayout>

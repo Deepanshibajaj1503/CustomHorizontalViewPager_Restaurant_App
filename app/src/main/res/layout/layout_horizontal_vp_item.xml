@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Card layout -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardCornerRadius="@dimen/dim_10"
+            app:cardElevation="@dimen/dim_8"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <!-- Main layout -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!-- Restaurant Profile Image -->
+                <ImageView
+                    android:id="@+id/restaurant_profile_imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintHeight_percent="0.65"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <!-- Restaurant Info bottom layout -->
+                <LinearLayout
+                    android:id="@+id/bottom_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dim_30"
+                    android:orientation="vertical"
+                    android:paddingStart="@dimen/dim_30"
+                    app:layout_constraintTop_toBottomOf="@id/restaurant_profile_imageView">
+
+                    <!-- Name -->
+                    <TextView
+                        android:id="@+id/name_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/pt_sans_bold"
+                        android:maxLines="1"
+                        android:textColor="@color/color_5B6FD0"
+                        android:textSize="@dimen/sp_27" />
+
+                    <!-- Desc -->
+                    <TextView
+                        android:id="@+id/desc_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dim_5"
+                        android:fontFamily="@font/gotham_rounded_medium"
+                        android:includeFontPadding="false"
+                        android:textColor="@color/color_808080"
+                        android:textSize="@dimen/sp_16" />
+
+                    <!-- Cuisine -->
+                    <TextView
+                        android:id="@+id/cuisine_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginTop="@dimen/dim_10"
+                        android:layout_marginEnd="@dimen/dim_20"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/gotham_rounded_light_italic"
+                        android:gravity="center_vertical"
+                        android:maxLines="4"
+                        android:textColor="@color/color_808080"
+                        android:textSize="@dimen/sp_14" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/dim_15">
+
+                        <!-- rating Icon -->
+                        <ImageView
+                            android:id="@+id/rating_icon"
+                            android:layout_width="@dimen/dim_15"
+                            android:layout_height="@dimen/dim_15"
+                            android:src="@drawable/star_icon" />
+
+                        <!-- rating text -->
+                        <TextView
+                            android:id="@+id/rating_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="@dimen/dim_5"
+                            android:fontFamily="@font/gotham_rounded_bold"
+                            android:gravity="center_vertical"
+                            android:textColor="@color/color_808080"
+                            android:textSize="@dimen/sp_12" />
+
+                        <!-- location Icon -->
+                        <ImageView
+                            android:id="@+id/location_icon"
+                            android:layout_width="@dimen/dim_15"
+                            android:layout_height="@dimen/dim_15"
+                            android:src="@drawable/location_icon"
+                            android:layout_marginStart="@dimen/dim_20"/>
+
+                        <!-- location text -->
+                        <TextView
+                            android:id="@+id/location_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="@dimen/dim_5"
+                            android:fontFamily="@font/gotham_rounded_light"
+                            android:gravity="center_vertical"
+                            android:textColor="@color/color_808080"
+                            android:textSize="@dimen/sp_12" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </FrameLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

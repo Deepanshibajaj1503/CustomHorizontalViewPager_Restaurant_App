@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:id="@+id/root_layout"
+    tools:context=".module.ui.RestaurantMainActivity">
+
+    <!-- logo -->
+    <ImageView
+        android:layout_width="@dimen/dim_200"
+        android:layout_height="@dimen/dim_40"
+        android:layout_marginBottom="@dimen/dim_10"
+        android:scaleType="fitXY"
+        android:layout_marginTop="@dimen/dim_15"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/swipe_and_dine_new_two"/>
+
+    <!-- Viewpager layout -->
+    <com.gigamole.infinitecycleviewpager.HorizontalInfiniteCycleViewPager
+        android:id="@+id/horizontalViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dim_35"
+        android:layout_marginBottom="@dimen/dim_15"
+        app:icvp_interpolator="@android:anim/accelerate_decelerate_interpolator"
+        app:icvp_scroll_duration="250"
+        app:icvp_center_page_scale_offset="@dimen/dim_30"
+        app:icvp_min_page_scale_offset="@dimen/dim_7"
+        app:icvp_max_page_scale="0.9"
+        app:icvp_min_page_scale="0.65"
+        app:icvp_medium_scaled="false"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
