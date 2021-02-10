@@ -9,6 +9,7 @@
   
   Click on the card to view more more photos, information about the restaurant and check out new upcoming events!
 
+![gif](swipe_and_dine_gif_1.gif)
 
   
  Now, let's see how was this app made ? 
@@ -253,6 +254,10 @@ To design the restaurant card :
 ```
 
    ![Screenshot](screenshot_swipe_dine_2.png)
+   
+   
+   
+   ![gif](swipe_and_dine_gif_2.gif)
 
 
 
