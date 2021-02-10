@@ -3,6 +3,7 @@
 
 # Ever tried a swipe to find your favourite restaurant ? Why do a swipe only for dating.
 
+# Swipe & Dine 
   This is a new way to find your favourite restaurant, just swipe right to see new restaurants 
   and better is that you can even "swipe back left" to see any restaurant if you missed! 
   
@@ -38,6 +39,8 @@
         app:icvp_medium_scaled="false"/>
      
    ``` 
+   
+   ![Screenshot](screenshot_swipe_and_dine.png)
    
    Create a PagerAdapter to develop the ui for each item inside a ViewPager (Restaurant Swipe Card) :
    
@@ -249,7 +252,17 @@ To design the restaurant card :
 
 ```
 
+   ![Screenshot](screenshot_swipe_dine_2.png)
 
 
+
+
+
+
+
+# Credits
+
+https://github.com/Devlight/InfiniteCycleViewPager 
+https://github.com/Baseflow/InfiniteCycleViewPagerXamarin
 
 
