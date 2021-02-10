@@ -9,7 +9,8 @@
   
   Click on the card to view more more photos, information about the restaurant and check out new upcoming events!
 
-![gif](swipe_and_dine_gif_1.gif)
+
+<img src="swipe_and_dine_gif_1.gif" width="400"/>
 
   
  Now, let's see how was this app made ? 
@@ -41,7 +42,8 @@
      
    ``` 
    
-   ![Screenshot](screenshot_swipe_and_dine.png)
+ 
+   <img src="screenshot_swipe_and_dine.png" width="400" />
    
    Create a PagerAdapter to develop the ui for each item inside a ViewPager (Restaurant Swipe Card) :
    
@@ -253,11 +255,10 @@ To design the restaurant card :
 
 ```
 
-   ![Screenshot](screenshot_swipe_dine_2.png)
+ <img src="screenshot_swipe_dine_2.png" width="400" />
    
    
-   
-   ![gif](swipe_and_dine_gif_2.gif)
+ <img src="swipe_and_dine_gif_2.gif" width="400"/>
 
 
 
