@@ -30,6 +30,16 @@
             android:name="com.restaurant.customhorizontalviewpager.module.ui.RestaurantInfoActivity"
             android:screenOrientation="portrait" />
 
+        <activity
+            android:name="com.restaurant.customhorizontalviewpager.module.ui.RestaurantEventImagesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.PopupTheme" />
+
+
+        <activity
+            android:name="com.restaurant.customhorizontalviewpager.module.ui.RestaurantFoodImagesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.PopupTheme" />
     </application>
 
 </manifest>

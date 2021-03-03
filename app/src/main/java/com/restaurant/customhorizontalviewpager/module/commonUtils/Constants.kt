@@ -13,6 +13,16 @@ interface Constants {
     interface BundleKeys {
         companion object {
             const val RESTAURANT_INFO = "RestaurantInfo"
+            const val RESTAURANT_EVENT_IMAGES = "RestaurantEventImages"
+            const val RESTAURANT_FOOD_IMAGES = "RestaurantFoodImages"
+        }
+    }
+
+    interface IMAGE_LAYOUT {
+        companion object {
+            const val SMALL = "small"
+            const val MEDIUM = "medium"
+            const val BIG = "big"
         }
     }
 

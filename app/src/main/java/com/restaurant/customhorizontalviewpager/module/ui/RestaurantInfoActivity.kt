@@ -1,5 +1,6 @@
 package com.restaurant.customhorizontalviewpager.module.ui
 
+import android.content.Intent
 import android.os.Bundle
 import android.os.Parcelable
 import androidx.appcompat.app.AppCompatActivity
@@ -19,7 +20,6 @@ import org.parceler.Parcels
 
 
 class RestaurantInfoActivity : AppCompatActivity() {
-
 
     private var restaurantInfo: Restaurant? = null
 
@@ -82,7 +82,7 @@ class RestaurantInfoActivity : AppCompatActivity() {
                     food_images_rv.layoutManager = LinearLayoutManager(
                         this, LinearLayoutManager.HORIZONTAL, false
                     )
-                    food_images_rv.adapter = RestaurantFoodAdapter(foodList) { item ->
+                    food_images_rv.adapter = RestaurantFoodAdapter(foodList,Constants.IMAGE_LAYOUT.SMALL) { item ->
                         onFoodImageClicked(foodList)
                     }
                     food_images_rv.isNestedScrollingEnabled = false
@@ -93,7 +93,7 @@ class RestaurantInfoActivity : AppCompatActivity() {
                     event_images_rv.layoutManager = LinearLayoutManager(
                         this, LinearLayoutManager.HORIZONTAL, false
                     )
-                    event_images_rv.adapter = RestaurantEventsAdapter(eventList) { item ->
+                    event_images_rv.adapter = RestaurantEventsAdapter(eventList,Constants.IMAGE_LAYOUT.SMALL) { item ->
                         onEventImageClicked(eventList)
                     }
                     event_images_rv.isNestedScrollingEnabled = false
@@ -102,12 +102,27 @@ class RestaurantInfoActivity : AppCompatActivity() {
         }
     }
 
+
+    /* Go to events screen */
     private fun onEventImageClicked(eventList: ArrayList<String>) {
-        /* will be available in next update */
+        eventList.let {
+            val intent = Intent(this, RestaurantEventImagesActivity::class.java)
+            val args = Bundle()
+            args.putParcelable(Constants.BundleKeys.RESTAURANT_EVENT_IMAGES, Parcels.wrap(it))
+            intent.putExtras(args)
+            startActivity(intent)
+        }
     }
 
+    /* Go to food screen */
     private fun onFoodImageClicked(foodList: ArrayList<String>) {
-        /* will be available in next update */
+        foodList.let {
+            val intent = Intent(this, RestaurantFoodImagesActivity::class.java)
+            val args = Bundle()
+            args.putParcelable(Constants.BundleKeys.RESTAURANT_FOOD_IMAGES, Parcels.wrap(it))
+            intent.putExtras(args)
+            startActivity(intent)
+        }
     }
 
     private fun performActivityExitAnimation() {
