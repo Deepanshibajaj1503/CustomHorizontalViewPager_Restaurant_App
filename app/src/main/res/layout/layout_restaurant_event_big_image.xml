@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/event_image_ll_big"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/event_image_big"
+        android:layout_width="@dimen/dim_320"
+        android:layout_height="@dimen/dim_320"
+        android:layout_marginStart="@dimen/dim_5"
+        android:layout_marginEnd="@dimen/dim_5"
+        android:layout_marginTop="@dimen/dim_2"
+        android:scaleType="centerCrop" />
+
+</LinearLayout>
