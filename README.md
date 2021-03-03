@@ -254,14 +254,13 @@ To design the restaurant card :
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 ```
-
- <img src="screenshot_swipe_dine_2.png" width="400" />
    
-   
- <img src="swipe_and_dine_gif_2.gif" width="400"/>
+
+<img src="restaurant_event_food_video.gif" width="400"/>
 
 
 
+<img src="screenshot_swipe_dine_2.png" width="400" />
 
 
 
